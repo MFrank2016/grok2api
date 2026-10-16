@@ -138,6 +138,11 @@ const resources = {
         sortAscending: "按{{column}}升序排列",
         sortDescending: "按{{column}}降序排列",
       },
+      routeError: {
+        title: "页面加载失败",
+        description: "页面资源可能已更新。请重新加载以获取最新版本。",
+        reload: "重新加载",
+      },
       updates: {
         title: "关于与更新",
         noteTitle: "Note",
@@ -1482,6 +1487,7 @@ const resources = {
         expiryUnknown: "Credential expiry is unknown",
       },
       common: { actions: "Actions", cancel: "Cancel", close: "Close", copy: "Copy", copied: "Copied", copyFailed: "Copy failed", create: "Create", delete: "Delete", disabled: "Disabled", disable: "Disable", edit: "Edit", enabled: "Enabled", enable: "Enable", loading: "Loading", importingProgress: "Importing, completed {{completed}} / {{total}}", syncingProgress: "Syncing initial data, completed {{completed}} / {{total}}", noData: "No data", pageOf: "Page {{page}}/{{pages}}", perPage: "Per page", rows: "rows", firstPage: "First page", lastPage: "Last page", previousPage: "Previous page", nextPage: "Next page", selectedCount: "{{count}} selected", selectPage: "Select this page", selectItem: "Select {{name}}", refresh: "Refresh", retry: "Retry", filter: "Filters", all: "All", clearFilters: "Clear filters", save: "Save", reset: "Reset", sortAscending: "Sort {{column}} ascending", sortDescending: "Sort {{column}} descending" },
+      routeError: { title: "Failed to load this page", description: "The page resources may have been updated. Reload to get the latest version.", reload: "Reload" },
       updates: { title: "About & updates", noteTitle: "Note", noteDescription: "This project is intended solely for technical research and educational exchange. You must comply with Grok's official terms of use and applicable local laws; you are solely responsible for any consequences.", currentVersion: "Current version", currentVersionHelp: "Version currently running on this service instance.", latestVersion: "Latest version", latestVersionHelp: "Latest version retrieved from the official GitHub Releases feed.", statusLabel: "Update status", statusLabelHelp: "Comparison between the running version and the latest release.", checkedAt: "Last check", checkedAtHelp: "Most recent successful retrieval of official release information.", checkNow: "Check for updates", viewRelease: "View update", openRelease: "Open Release", releaseNotes: "Release notes", releaseNotesHelp: "Version summary published with the official GitHub Release.", noReleaseNotes: "No release notes are available for this version.", notChecked: "Not fetched", neverChecked: "No successful check yet", available: "New version {{version}} available", currentSummary: "Running {{version}}", status: { unchecked: "Not checked", up_to_date: "Up to date", update_available: "Update available", check_failed: "Check failed" } },
       nav: { dashboard: "Dashboard", accounts: "Accounts", models: "Models", clientKeys: "Client keys", creativeConsole: "Creative console", gallery: "Gallery", videoGallery: "Video Gallery", audits: "Request audits", qualityGuard: "Quality guard", docs: "Documentation", settings: "Settings" },
       creativeConsole: {
